@@ -22,18 +22,18 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > 
 My Cheat Sheet
-pwd          print working directory
-mkdir        make a directory
-rmdir        remove a directory
-touch fn     create an empty file
-rm fn        remove a file
-mv fn1 fn2   rename from fn1 to fn2
-ls -a        list all files (including hidden)
-cp dir/fn1 dir2   copy file from dir to dir2 (directories)
-history      shows previous commands - can be executed with !num
-head fn      show first 10 lines of fn
-grep "text" fn    show lines in fn which contain "text"
-!cmd         execute last command that starts with cmd
+`pwd`          print working directory  
+`mkdir`        make a directory  
+`rmdir`        remove a directory  
+`touch fn`     create an empty file  
+`rm fn`        remove a file  
+`mv fn1 fn2`   rename from fn1 to fn2  
+`ls -a`        list all files (including hidden)  
+`cp dir/fn1 dir2`   copy file from dir to dir2 (directories)  
+`history`      shows previous commands - can be executed with !num  
+`head fn`      show first 10 lines of fn  
+`grep "text" fn`    show lines in fn which contain "text"  
+`!cmd`         execute last command that starts with cmd
 
 ---
 
@@ -47,37 +47,35 @@ What do the following commands do:
 `ls -lah`  
 `ls -t`  
 `ls -Glp`  
+  
+`ls`         list files in directory  
+`ls -a`      list all files, including hidden  
+`ls -l`      list files in long format (all the useful info on the files)  
+`ls -lh`     lists files in long format with readable file size  
+`ls -lah`    lists all files (including hidden) in long format with readable file size  
+`ls -t`      lists files sorted by time and date  
+`ls -Glp`    lists files in long format witha '\' after a directory showing different colors for file types  
 
-> > 
-`ls`         list files in directory 
-`ls -a`      list all files, including hidden
-`ls -l`      list files in long format (all the useful info on the files)
-`ls -lh`     lists files in long format with readable file size
-`ls -lah`    lists all files (including hidden) in long format with readable file size
-`ls -t`      lists files sorted by time and date
-`ls -Glp`    lists files in long format witha '\' after a directory showing different colors for file types
 ---
 
 ### Q3.  More List Files in Unix  
 
-Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
-
-> >
-'ls -d'      displays only directories
-'ls -1'      displays one file per line
-'ls -q'      displays non-printing characters
-'ls -R'      displays contents of directories as well
-'ls -r'      displays in reverse order
+Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:  
+  
+`ls -d`      displays only directories  
+`ls -1`      displays one file per line  
+`ls -q`      displays non-printing characters  
+`ls -R`      displays contents of directories as well  
+`ls -r`      displays in reverse order  
 
 ---
 
 ### Q4.  Xargs   
 
-What does `xargs` do? Give an example of how to use it.
+What does `xargs` do? Give an example of how to use it.  
 
-> > 
-'xargs' lets you pass the output of one command as the input of another
-ls foo* | xargs rm
+'xargs' lets you pass the output of one command as the input of another 
+ls foo* | xargs rm 
 
-List all files that start with foo and remove them.  
-This is quite simple as you could do rm foo* directly but this is the idea of xargs.
+List all files that start with foo and remove them.   
+This is quite simple as you could do rm foo* directly but this is the idea of xargs. 
