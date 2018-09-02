@@ -74,8 +74,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.  
 
-'xargs' lets you pass the output of one command as the input of another 
-ls foo* | xargs rm 
+`xargs` lets you pass the output of one command as the input of another  
+`ls foo* | xargs rm`  
 
 List all files that start with foo and remove them.   
-This is quite simple as you could do rm foo* directly but this is the idea of xargs. 
+This is quite simple as you could do `rm foo*` directly but this is the idea of xargs.  
