@@ -20,7 +20,8 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > My Cheat Sheet
+> > 
+My Cheat Sheet
 pwd          print working directory
 mkdir        make a directory
 rmdir        remove a directory
