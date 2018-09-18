@@ -99,7 +99,9 @@ P(identical given twin) = (P(twin given identical) * P(identical))/P(twin)
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+A frequentst looks at long-term frequencies.  Straight up with a lot of samples the number of times something comes up over the total number of items in the sample set.  
+
+In Bayesian statistics probabilities represent the uncertainty in any event or hypothesis.  In this way you can assign a probability to a non-repeatable event which is out of reach of to the frequentist.
 
 ---
 
